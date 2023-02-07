@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    margin: 60px 0;
+    background-image: url(./images/world.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    background-color: rgb(26, 25, 2,0.5);
+    color: white;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 30px;
+    padding: 2em;
+    height: 45px;
+    text-align: center;
+}
+
+.card > * {
+   margin-bottom: 20px;
+}
+/* .search{
+    display: inline-flex;
+} */
+
+.search-box{
+    border-radius: 5px;
+    height: 3em;
+    /* border-color none; */
+    border-style: none;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255,0.9);
+    width: 100%;
+    max-width: 320px; 
+}
+
+.search-box:focus{
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+.search button{
+    border-radius: 5px;
+    width: 35px;
+    margin-left: 10px;
+    border-style: none;
+   
+}
+
+.weather{
+    background: white;
+    height: 57vh;
+    border-radius: 20px;
+    color: black;
+    margin-top: -20px;
+    /* display: none; */  
+    
+   
+}
+.city{
+    margin-top: -15px;
+
+    
+}
+.content{
+    padding: 0px 15px;
+}
+.content h2{
+    padding-top: 7px;
+}
+.city{
+    font-weight: 700;
+}
+
+.temp{
+    font-weight:600;
+    font-size: 50px;
+    text-shadow: 2px 4px rgba(0,0 0,0.3);
+    margin-top: 12px;
+}
+.description{
+    margin-top: -10px;
+}
+
+.minandmax{
+    display: inline-flex;
+}
+
+.blackbox{
+    background-color: rgb(26, 25, 2,0.5);
+    color: white;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 30px;
+    padding: 2em;
+    height: 400px;
+    margin-left: -27px;
+    margin-top: 67px;
+    display: none;
+  
+}
+
+.icon{
+    width:70px;
+    margin-top: -60px;
+    padding: 20px;
+}
