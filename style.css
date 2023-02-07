@@ -57,7 +57,7 @@ body{
 
 .weather{
     background: white;
-    height: 57vh;
+    height: 56vh;
     border-radius: 20px;
     color: black;
     margin-top: -20px;
@@ -101,7 +101,7 @@ body{
     max-width: 320px;
     border-radius: 30px;
     padding: 2em;
-    height: 400px;
+    height: 420px;
     margin-left: -27px;
     margin-top: 67px;
     display: none;
